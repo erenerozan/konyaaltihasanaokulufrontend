@@ -41,7 +41,7 @@ class sinif{
     public $dokumanogrencisid;
     public $dokumanogrenci;
 	function __construct(){
- 		$this -> dsn ="mysql:host=localhost;dbname=okul_vt";
+ 		$this -> dsn ="mysql:host=93.89.72.35;dbname=okul_vt";
  		$this -> user ="harvard";
  		$this -> password ="best1993";
  	}

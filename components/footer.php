@@ -31,6 +31,8 @@ echo '
                     <div class="logolar"><img src = "http://www.konyaaltihasanaokulu.com/css/logos/logo.png"/></div>
                     <div class="dik"></div>
                     <div class="logolar"><img src = "http://www.konyaaltihasanaokulu.com/css/logos/mathazone.jpg"/></div>
+                    <div class="dik"></div>
+                    <div class="logolar"><img src = "http://www.konyaaltihasanaokulu.com/css/logos/eko.png"/></div>
                 </div>
             </li>
             <li><a href="">Arapsuyu Mahallesi, Kuşkavağı Caddesi No:30 Konyaaltı, 07070 Konyaaltı/Antalya</a></li>

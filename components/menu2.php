@@ -5,6 +5,8 @@ echo '<section id="nav">
                     <div class="logolar"><img src = "../css/logos/logo.png"/></div>
                     <div class="dik"></div>
                     <div class="logolar"><img src = "../css/logos/mathazone.jpg"/></div>
+                    <div class="dik"></div>
+                    <div class="logolar"><img src = "../css/logos/eko.png"/></div>
             </div>
             <nav>
                 <ul id="ust">

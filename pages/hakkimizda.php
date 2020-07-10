@@ -124,6 +124,7 @@
             <button class="tablink" onclick="openCity(event, 'psikolojiktab')">Psikolojik Danışmanlık ve Rehberlik</button>
             <button class="tablink" onclick="openCity(event, 'dogalgidatab')">Doğal Gıda Ürünleri</button>
             <button class="tablink" onclick="openCity(event, 'destektab')">Destek Birimleri</button>
+            <button class="tablink" onclick="openCity(event, 'ekookul')">EKO-OKULLAR ÇEVRE DOSTU OKUL</button>
         </div>
 
         <div class="tabs">
@@ -181,6 +182,20 @@
                 <p><b>Güvenlik:</b>Okulumuz 7/24 kapalı devre kamera sistemi ile tüm gün kayıt altındadır.</p>
                 <p><b>Temizlik ve Hijyen: </b>Tüm sınıflarımız, çocuklarımızın özgürce oynayabilecekleri, eğitim alt yapımıza uygun, gerekli ışığı ve oksijeni alacak şekilde özenle hazırlanmıştır. Okulumuzun temizliği gerekli hijyen standartlarına uygun bir şekilde günlük olarak yapılmaktadır. Birçok bulaşıcı hastalığı göz önünde bulundurarak her ay düzenli olarak antibakteriyal temizlik ‘’BİOAKADEMİ MEDİKAL’’ firması tarafından yapılmaktadır. </p>
                 <p><b>Bahçe:</b>Öğrencilerimizin okulumuzda en büyük şansı, doğal çim ve ağaçlarla dolu toplamda 350 m2 bahçemizdir. Öğrencilerimizin, doğada oynayarak ve deneyimleyerek öğrenmesini, zihinlerini doğa bilimlerine açmasını istiyoruz. </p>
+            </div>
+            <div id="ekookul" class="w3-container city" style="display:none">
+                <h2>EKO-OKULLAR ÇEVRE DOSTU OKUL</h2>
+                <p>Konyaaltı Has Anaokulu olarak öğrencilerimize daha iyi çevre bilinci ve sürdürülebilir çevre eğitimi verme amacımız doğrultusunda 2018-2019 Eğitim-Öğretim yılından itibaren Eko-Okullar programını okul genelimizde uygulamaya başladık.</p>
+                <p>Eko-Okullar uluslararası nitelikte olup dünya üzerinde 52 ülkede 7000 den fazla okulda uygulanan bir çevre bilinci ve sorumluluğu projesidir. Proje, Uluslararası Çevre Eğitim Vakfı (FEE) koordinasyonunda, TURÇEV  (Türkiye Çevre Eğitim Vakfı) tarafından yürütülmektedir. Projede öğrenciler, hem çevresel konularda bilgi edinirler hem de ailelerini, yerel yönetimleri ve sivil toplum kuruluşlarını çevresel konularda bilinçlendirmede etkin rol alırlar.</p>
+                <p>Eko-Okullar program dâhilinde yaptıkları çalışmalarda ve verdikleri çevre eğitimleriyle üstün başarı sağlamış okullara Yeşil Bayrak ödülü verilir.  Yeşil Bayrak, uluslararası düzeyde tanınan ve saygınlığı olan, çevreye duyarlı okulu simgeleyen bir eko-etikettir. Ödülün geçerlilik süresi 2 yıldır bu sebeple ödülün her iki yılda bir yenilenmesi gerekir. Eko-Okullar uzun verimli bir programdır. Öğrenciler;</p>
+                <ul>
+                    <li>Grup çalışmasına alışır katılımcı bir yapı oluşturur,</li>
+                    <li>Sorunları tanıma, çözüm üretme ve tartışma becerisi geliştirir,</li>
+                    <li>İnsiyatif kullanma, karar verme yeteneği gelişir,</li>
+                    <li>Tüketim alışkanlıkları değişir, savurganlık önlenir,</li>
+                    <li>Doğal kaynakları koruma bilinci gelişir.</li>
+                </ul>
+                <p>Okulumuzda bu etkinlikler öğrencilerimizin ve öğretmenlerinin oluşturduğu Eko tim ve Eko komite tarafından planlanır ve uygulanır. Öğrencilerimiz okul genelinde yaptıkları çalışmalar ile çevre sorunlarına çözüm aramakta ve bilinçlendirme çalışmaları yapmaktadırlar. 2018-2019 Eğitim Öğretim yılında proje kapsamında oluşturulan eylem planı ile "Geri Dönüşüm ve Atık" konusu ile ilgili çalışmalar başlamış ve 2019-2020 Eğitim-Öğretim yılının sonunda, 2 yıllık çalışma sonucunda okulumuz çevre bilincinin simgesi olan “Yeşil Bayrak” almaya hak kazanmıştır.</p>
             </div>
         </div>
 
