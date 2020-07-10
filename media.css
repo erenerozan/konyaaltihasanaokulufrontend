@@ -1,0 +1,140 @@
+@media only screen and (max-width: 920px) {
+  #myModal img {
+    object-fit: contain; }
+  #myModal .modal-content {
+    width: 100%; }
+    #myModal .modal-content img {
+      object-fit: contain; }
+  #myModal .modal img {
+    object-fit: cover; }
+
+  #footer ul {
+    width: 100%; }
+
+  .bulutlar .wrapper {
+    padding: 10px; }
+    .bulutlar .wrapper .kutu {
+      width: 100%; }
+
+  .minigaleri {
+    height: auto; }
+    .minigaleri .resimler {
+      width: 100%;
+      height: 200px; }
+
+  #ust {
+    display: none; }
+
+  #nav nav .cubuk {
+    display: block; }
+
+  #nav nav .cubuk:hover {
+    transition: 500ms;
+    transform: rotate(360deg); }
+
+  #anim .yazitasiyici {
+    background-color: rgba(46, 204, 113, 0.4);
+    border-radius: 40px; }
+
+  #egitim .left {
+    width: 100%; }
+
+  #egitim .right {
+    width: 100%; }
+
+  #galeri .gallery {
+    width: 630px; }
+
+  #video .icerik {
+    width: 420px; }
+
+  #video .icerik iframe {
+    width: 100%; }
+
+  #mail .left {
+    width: 100%; }
+
+  #mail .right {
+    width: 100%; }
+
+  #kadro .kadroresimtasiyici0 {
+    width: 440px; }
+
+  #kadro .kadroresimtasiyici1 {
+    width: 440px; }
+
+  #kadro .kadroresimtasiyici2 {
+    width: 440px; }
+
+  #motsite .kadroresimtasiyici0 {
+    width: 100%; }
+
+  #motsite .kadroresimtasiyici0 iframe {
+    width: 100%;
+    margin-top: 30px; }
+
+  #hakkimizda {
+    display: none; } }
+@media only screen and (max-width: 665px) {
+  .modal-content {
+    max-width: 300px !important; }
+    .modal-content a {
+      max-width: 300px !important; }
+      .modal-content a img {
+        max-width: 300px !important; }
+      .modal-content a .yazi {
+        font-size: 18px !important;
+        bottom: 0px !important; }
+
+  #destek .icerik {
+    width: 210px; }
+
+  #orjinal .materyal {
+    width: 250px; }
+
+  #dogalgida .materyal {
+    width: 200px;
+    height: 600px; }
+
+  #dogalgida .materyal .oyuncak {
+    width: 200px; }
+
+  #egitim .left {
+    width: 100%; }
+
+  #egitim .right {
+    width: 100%; }
+
+  #galeri .gallery {
+    width: 210px; }
+
+  #video .icerik {
+    width: 100%; }
+
+  #video .icerik iframe {
+    width: 100%;
+    margin: 10px 0px 0px 0px; }
+
+  #mail .left {
+    width: 100%; }
+
+  #mail .right {
+    width: 100%; }
+
+  #kadro .kadroresimtasiyici0 {
+    width: 220px; }
+
+  #kadro .kadroresimtasiyici1 {
+    width: 220px; }
+
+  #kadro .kadroresimtasiyici2 {
+    width: 220px; }
+
+  #motsite .kadroresimtasiyici0 {
+    width: 100% x; }
+
+  #motsite .kadroresimtasiyici0 iframe {
+    width: 100%;
+    margin-top: 30px; } }
+
+/*# sourceMappingURL=media.css.map */

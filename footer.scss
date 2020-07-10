@@ -1,0 +1,84 @@
+.footer {
+  float: left;
+  width: 100%;
+  color: white;
+  
+  .links {
+    background-color: #382a41;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    @media only screen and (max-width: 1000px) {
+        
+            padding: 20px 20px;
+       
+      }
+    ul{
+        float: left;
+        margin:0;
+        padding: 0px 50px 0px 0px;
+        box-sizing: border-box;
+        width: 25%;
+        li{
+            list-style:none;
+            margin: 10px 0px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+            padding-bottom: 5px;
+            font-size: 18px;
+            opacity: .8;
+            box-sizing: border-box;
+            a{
+                color:white;
+            }
+            &:first-child{
+                opacity: 1;
+                box-sizing: border-box;
+                margin: 10px 0px 20px 0px;
+                font-weight: 600;
+                border: none;
+                font-size: 24px;
+            }
+        }
+        &:last-child{
+            .logo{
+                height: 60px;
+                width:100%;
+                float: left;
+                .dik{
+                    float: left;
+                    width: 2px;
+                    margin-top:5px;
+                    height: calc( 60px - 20px );
+                    margin-right: 10px;
+                    border-radius: 10px;
+                    background-color: #f1c40f;
+                }
+                .logolar{
+                    float: left;
+                }
+                img{
+                    width: 60px;
+                    height: 45px;
+                    object-fit: contain;
+                }
+            }
+            li{
+                border:none;
+                opacity: .4;
+                &:first-child{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+  }
+  .reserved{
+    width: 100%;
+    float: left;
+    background-color: #281e2f;
+    padding: 20px 100px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}

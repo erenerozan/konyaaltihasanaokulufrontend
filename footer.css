@@ -1,0 +1,68 @@
+.footer {
+  float: left;
+  width: 100%;
+  color: white; }
+  .footer .links {
+    background-color: #382a41;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    float: left;
+    width: 100%; }
+    @media only screen and (max-width: 1000px) {
+      .footer .links {
+        padding: 20px 20px; } }
+    .footer .links ul {
+      float: left;
+      margin: 0;
+      padding: 0px 50px 0px 0px;
+      box-sizing: border-box;
+      width: 25%; }
+      .footer .links ul li {
+        list-style: none;
+        margin: 10px 0px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+        padding-bottom: 5px;
+        font-size: 18px;
+        opacity: .8;
+        box-sizing: border-box; }
+        .footer .links ul li a {
+          color: white; }
+        .footer .links ul li:first-child {
+          opacity: 1;
+          box-sizing: border-box;
+          margin: 10px 0px 20px 0px;
+          font-weight: 600;
+          border: none;
+          font-size: 24px; }
+      .footer .links ul:last-child .logo {
+        height: 60px;
+        width: 100%;
+        float: left; }
+        .footer .links ul:last-child .logo .dik {
+          float: left;
+          width: 2px;
+          margin-top: 5px;
+          height: calc( 60px - 20px );
+          margin-right: 10px;
+          border-radius: 10px;
+          background-color: #f1c40f; }
+        .footer .links ul:last-child .logo .logolar {
+          float: left; }
+        .footer .links ul:last-child .logo img {
+          width: 60px;
+          height: 45px;
+          object-fit: contain; }
+      .footer .links ul:last-child li {
+        border: none;
+        opacity: .4; }
+        .footer .links ul:last-child li:first-child {
+          opacity: 1; }
+  .footer .reserved {
+    width: 100%;
+    float: left;
+    background-color: #281e2f;
+    padding: 20px 100px;
+    box-sizing: border-box;
+    text-align: center; }
+
+/*# sourceMappingURL=footer.css.map */

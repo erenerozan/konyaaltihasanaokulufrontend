@@ -1,0 +1,1247 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+::selection {
+  background: #f1c40f;
+}
+::-moz-selection {
+  background: #f1c40f;
+}
+body {
+    margin:0; padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+.container{
+	margin: 0 auto;
+	width: 1200px;
+	min-height: 1px;
+	background-color: red;
+}
+a{
+	text-decoration: none;
+}
+
+header{
+	z-index: 10;
+	position: fixed;
+	width: 100%;
+	height: 92px;
+	background-color: #2ECC71;
+	padding: 10px;
+	-webkit-box-shadow: 0px 17px 5px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 17px 5px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 0.5px 2px 0px rgba(0,0,0,0.35);
+}
+nav{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+	width: 240px;
+	height: 80px;
+	background-image: url("./img/hklogo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*background-position: top;	*/
+}
+section{
+	width: 100%;
+	height: 100vh;
+
+}
+ul{
+
+	list-style: none;
+	float: right;
+	padding: 10px;
+	overflow: hidden;
+
+}
+li{
+	float: left;
+	margin-left: 50px;
+}
+ul li a {
+	text-decoration: none;
+	color:white;
+	transition: 500ms;
+}
+ul li a:hover{
+	color:#ed185b;
+	transition: 500ms;
+}
+.dropdown {
+
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2ECC71;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#sec1{
+	background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 14vh;
+}
+#sec11{
+	background-color: #9A12B3;
+	overflow: auto;
+	padding-top: 15vh;
+	height: 100vh;
+	box-sizing: border-box;
+}
+#sec12{
+	background-color: #F89406;
+	overflow: auto;
+	padding-top: 15vh;
+	height: 110vh;
+	box-sizing: border-box;
+}
+.toytas{
+	height: 180px;
+	width: 520px;
+	margin: 30px auto;
+}
+.toy{
+	float: left;
+	width: 200px;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.toy img{
+	width: 100%;
+	height:100%;
+}
+.slogan{
+	width: 100%;
+	height: auto;
+}
+.slogan p {
+	text-align: center;
+	color: #36b8f8;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slogan #kesif{
+	text-align: center;
+	color:#38586a;
+	font-size: 20px;
+	font-weight: 600;
+}
+.velipanelbutton{
+	float: right;
+	width: 160px;
+	height: 60px;
+	background-color: #f5c71a;
+	margin-top: 90px;
+	padding-top: 15px;
+	padding-left: 15px;
+	border-radius: 0px 0px 10px 10px;
+	transition: 500ms;
+}
+.velipanelbutton img{
+	float: left;
+}
+.velipanelbutton .velipaneltext{
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: white;
+	font-size: 20px;
+}
+.velipanelbutton:hover{
+	background-color: #9b59b6;
+	transition: 500ms;
+}
+.videocont{
+	width: 100%;
+	height: 60vh;
+	background-image: url("./img/video.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 0;
+}
+.videocont:hover{
+	background-image: url("./img/videohover.png");
+}
+.video-t{
+  /*padding: 0;
+  text-align: center;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center center;
+  width: 150px;
+  height: 84px;
+  margin:0 auto;
+  cursor: pointer;*/
+  width: 100%;
+	height: 60vh;
+	background-image: url("./img/video.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 0;
+}
+.video-t:hover{
+	background-image: url("./img/videohover.png");
+}
+.video-o{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  top: 0;
+  left: 0;
+}
+
+.video-o .frame{
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin: 100px auto;
+}
+#sec2{
+	overflow: auto;
+	background-image: url("./img/3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 15vh;
+	height: 115vh;
+	box-sizing: border-box;
+}
+.bizkimizbaslik{
+	width: 100%;
+	height: auto;
+}
+.bizkimizbaslik p {
+	text-align: center;
+	color: white;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bizkimizbaslik #harvardfark{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+}
+.bizkimizkutu{
+	max-width: 800px;
+	height: auto;
+	background-color: white;
+	border-radius: 24px;
+	margin-top: 3vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	color: #ed185b;
+}
+.bizkimizkutu2{
+	max-width: 800px;
+	height: auto;
+	background-color: white;
+	border-radius: 24px;
+	margin-top: 3vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	color: #9A12B3;
+}
+.bizkimizkutu3{
+	max-width: 800px;
+	height: auto;
+	background-color: white;
+	border-radius: 24px;
+	margin-top: 3vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	color: #F89406;
+}
+#sec3{
+	height: 700px;
+	background-image: url("./img/2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 100px;
+	background-attachment: fixed;
+	float: left;
+}
+.dogalgida{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.dogalgida p {
+	text-align: center;
+	color: white;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dogalgida #gida{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+}
+.gidalogocontainer{
+	max-width: 600px;
+	height: auto;
+	text-align: center;
+	margin: 30px auto;
+}
+.gidalogocontainer img{
+	margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+#sec4{
+	height: auto;
+}
+.left{
+	width: 50%;
+	min-height: 780px;
+	background-image: url("./img/4.jpg");
+	float: left;
+	box-sizing: border-box;
+	padding: 100px 30px 0px 30px;
+}
+.lingua{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+}
+.lingua .lingbaslik {
+	text-align: center;
+	color: white;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.lingua #ling{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+}
+.right{
+	width: 50%;
+	min-height: 780px;
+	background-image: url("./img/7.jpg");
+	float: left;
+	box-sizing: border-box;
+	padding: 100px 30px 0px 30px;
+}
+#egitimlingbutton{
+	text-decoration:none;
+	width: 200px;
+	height: 60px;
+	background-color: white;
+	text-align: center;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+	color: #37326a;
+	display: block;
+	transition: 500ms;
+}
+#egitimlingbutton a{
+	text-decoration:none;
+}
+#egitimlingbutton:hover{
+	background-color: #f27120;
+	color: white;
+	transition: 500ms;
+}
+#egitimmontbutton{
+	text-decoration:none;
+	width: 200px;
+	height: 60px;
+	background-color: white;
+	text-align: center;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+	color: #37326a;
+	display: block;
+	transition: 500ms;
+}
+#egitimmontbutton a{
+	text-decoration:none;
+}
+#egitimmontbutton:hover{
+	background-color: #37326a;
+	color: white;
+	transition: 500ms;
+}
+#sec5{
+	height: auto;
+	float: left;
+	background-color: #dfeaef;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.gallery {
+  width: 850px;
+  margin: 50px auto 0px auto;
+  padding: 5px;
+}
+.gallery2 {
+  width: 1170px;
+  margin: 50px auto 0px auto;
+  padding: 5px;
+}
+.galleft{
+	float: left;
+	margin: 10px;
+}
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  height: 140px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(2.7,2.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+#sec6{
+	float: left;
+
+
+	box-sizing: border-box;
+	background-image: url("./img/6.jpg");
+}
+.leftiletisim{
+	width: 50%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding: 100px 30px 0px 200px;
+}
+.rightiletisim{
+	width: 50%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+#lingiletisim{
+	text-align: left;
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+	text-indent: 30px;
+	width: 100px;
+
+	float: left;
+	padding-top: 5px;
+}
+.iletisimtextbox{
+	border-radius: 20px;
+	border-style: none;
+	width: 250px;
+	height: 40px;
+	text-indent: 30px;
+	margin-left: 30px;
+	float: left;
+}
+.iletisiminput{
+	width: 100%;
+	height: 60px;
+}
+.iletisiminput2{
+	width: 100%;
+	height: 200px;
+}
+.iletisimtextarea{
+	border-radius: 20px;
+	border-style: none;
+	width: 250px;
+	height: 200px;
+	text-indent: 30px;
+	margin-left: 30px;
+	float: left;
+	padding-top: 10px;
+}
+.iletisiminput3{
+	width: 100%;
+	height: 60px;
+	padding-left: 200px;
+}
+.buton{
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	box-shadow: none;
+	border-style: none;
+	border-radius: 20px;
+	margin-top: 20px;
+	transition: 500ms;
+}
+.buton:hover{
+	background-color: #3061ac;
+	color: white;
+	transition: 500ms;
+}
+#kadro{
+	background-color: #dfeaef;
+	padding-top: 40px;
+	min-height: 2300px;
+	box-sizing: border-box;
+}
+.tasiyiciteam {
+  width: 430px;
+  margin: 10px auto 0px auto;
+  padding: 5px;
+}
+.tasiyiciteam > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.tasiyiciteam > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+.isim{
+	padding-top: 5px;
+	text-align: center;
+}
+.unvan{
+	padding-top: 5px;
+	text-align: center;
+	font-weight: 400;
+}
+/* Scrool bar stil verme*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #19B5FE;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+.slogankadro{
+	width: 100%;
+	height: auto;
+}
+.slogankadro p {
+	text-align: center;
+	color: #36b8f8;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slogankadro .kesifkadro{
+	text-align: center;
+	color:#38586a;
+	font-size: 20px;
+	font-weight: 600;
+}
+.slogankadro2{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.slogankadro2 p {
+	text-align: center;
+	color: #36b8f8;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slogankadro2 .kesifkadro{
+	text-align: center;
+	color:#38586a;
+	font-size: 20px;
+	font-weight: 600;
+}
+.tasiyiciteam2 {
+  width: 860px;
+  margin: 10px auto 0px auto;
+  padding: 5px;
+}
+.tasiyiciteam2 > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.tasiyiciteam2 > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+.tasiyiciteam3 {
+  width: 210px;
+  margin: 10px auto 0px auto;
+  padding: 5px;
+}
+.tasiyiciteam3 > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.tasiyiciteam3 > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+.tasiyiciteam4 {
+  width: 640px;
+  margin: 10px auto 0px auto;
+  padding: 5px;
+}
+.tasiyiciteam4 > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.tasiyiciteam4 > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+#montessori{
+	background-image: url("./img/7.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	height: auto;
+	padding-bottom: 100px;
+}
+.montimg{
+	width: 800px;
+	height: 350px;
+	margin-top: 20px;
+}
+.monttext{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	text-align: center;
+}
+.monttext p {
+	text-align: center;
+	color: white;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.monttext #montp{
+	text-align: center;
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.kapsayici{
+	width: 900px;
+	height: 200px;
+}
+#linguafoliosec{
+	background-image: url("./img/4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	height: auto;
+	padding-bottom: 100px;
+}
+.tel{
+	width: auto;
+	height: 60px;
+	background-color:#3061ac;
+	border-radius: 14px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;
+	margin:10px auto;
+}
+#sec7{
+	height: 80vh;
+	box-sizing: border-box;
+	float: left;
+	padding-top: 100px;
+	background-image: url("./img/destek.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+}
+.destekcontent{
+	width: 800px;
+	padding: 15px;
+	margin: 15px auto;
+	display: flex; /* gerekli */
+	justify-content: center; /* gerekli */
+}
+.desteklbl{
+	background-color: rgba(248, 148, 6, 1);
+	border-radius: 20px;
+  	color: #fff;
+  	margin: 4px;
+  	width: 300px;
+  	height: auto;
+  	padding: 5px;
+  	text-align: center;
+}
+.desteklbl1{
+	background-color: rgba(248, 148, 6, 1);
+	border-radius: 20px;
+  	color: #fff;
+  	margin: 4px;
+  	width: 300px;
+  	height: 170px;
+  	padding: 5px;
+  	text-align: center;
+}
+#sec8{
+	height: 80vh;
+	box-sizing: border-box;
+	float: left;
+	padding-top: 100px;
+	background-image: url("https://confetti.html.themeforest.createit.pl/assets/images/demo-content/header-01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.etkinlik{
+	text-shadow: 4px 4px 8px #19B5FE;
+}
+#sec10{
+	height: auto;
+	float: left;
+	/*background-color: #dfeaef;*/
+	padding-top: 80px;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+/* Hayaldunya.net            */
+/* hayaldunya@hayaldunya.net */
+.tasiyicigida{
+  width:620px;
+  height:200px;
+  margin:0 auto;
+}
+.gidaimg{
+  width:200px;
+  height: 200px;
+  margin-left:5px;
+  float:left;
+
+}
+.ustslider1 {
+	position: absolute;
+    -webkit-animation: ustslider1 10s infinite; /* Chrome, Safari, Opera */
+    animation: ustslider1 10s infinite;
+}
+.ustslider2 {
+	position: absolute;
+    -webkit-animation: ustslider2 10s infinite; /* Chrome, Safari, Opera */
+    animation: ustslider2 10s infinite;
+}
+.ustslider3 {
+	position: absolute;
+    -webkit-animation: ustslider3 10s infinite; /* Chrome, Safari, Opera */
+    animation: ustslider3 10s infinite;
+}
+.ustslider4 {
+	position: absolute;
+    -webkit-animation: ustslider4 10s infinite; /* Chrome, Safari, Opera */
+    animation: ustslider4 10s infinite;
+}
+/* Üst Slider 1 */
+@-webkit-keyframes ustslider1 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	2%	 {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	24%	 {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+    25%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+@keyframes ustslider1 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	2%	 {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	24%	 {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+    25%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+
+/* Üst Slider 2 */
+@-webkit-keyframes ustslider2 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    25%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	27%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	49%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	50%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+@keyframes ustslider2 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    25%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	27%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	49%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	50%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+
+/* Üst Slider 3 */
+@-webkit-keyframes ustslider3 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	50%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	52%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	74%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	75%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+@keyframes ustslider3 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	50%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	52%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	74%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	75%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+
+/* Üst Slider 4 */
+@-webkit-keyframes ustslider4 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	75%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	77%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	99%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+@keyframes ustslider4 {
+    0%   {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	75%  {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+	77%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+	99%  {opacity:1; -webkit-opacity:1; -moz-opacity:1;}
+    100% {opacity:0; -webkit-opacity:0; -moz-opacity:0;}
+}
+
+@keyframes bulut {
+0%{		transform: translate(2px,2px);}
+
+25%{		transform: translate(4px,4px);}
+
+50%{		transform: translate(6px,-3px);}
+
+100%{	transform: translate(2px,2px);}
+}
+
+@keyframes bulut2 {
+0%{		transform: translate(2px,2px);}
+
+25%{		transform: translate(4px,4px);}
+
+50%{		transform: translate(6px,-2px);}
+
+100%{	transform: translate(2px,2px);}
+}
+@keyframes bulut3 {
+0%{		transform: translate(2px,2px);}
+
+25%{		transform: translate(4px,4px);}
+
+50%{		transform: translate(6px,-3px);}
+
+100%{	transform: translate(2px,2px);}
+}
+@keyframes cubuk {
+0%{		transform: rotate(10deg);}
+
+50%{	transform: rotate(-10deg);}
+
+100%{	transform: rotate(10deg);}
+}
+@keyframes cubuk2 {
+0%{   transform: rotate(-10deg);}
+
+50%{  transform: rotate(10deg);}
+
+100%{ transform: rotate(-10deg);}
+}
+@keyframes cubuk3 {
+0%{   transform: rotate(-5deg);}
+
+50%{  transform: rotate(5deg);}
+
+100%{ transform: rotate(-5deg);}
+}
+@keyframes spaceship {
+0%{   transform: rotate(-3deg);margin-left: 0px;width: 70px;height: 70px;}
+
+50%{  transform: rotate(3deg);margin-left: 5px;width: 50px;height: 50px;}
+
+100%{ transform: rotate(-3deg);margin-left: 0px;width: 70px;height: 70px;}
+}
+@keyframes ufo {
+0%{   transform: rotate(-3deg);width: 30px;height: 30px;opacity: 0;transform: translate(0px,0px);}
+
+50%{  transform: rotate(3deg);width: 50px;height: 50px;opacity: 1;transform: translate(75px,75px);}
+
+100%{ transform: rotate(-3deg);width: 30px;height: 30px;opacity: 0;transform: translate(150px,150px);}
+}
+.tasiyici{
+	width: 150px;
+	height: 150px;
+	margin-left: 15%;
+	margin-top: 3%;
+	position: relative;
+	float: left;
+}
+.tasiyici2{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	float: left;
+}
+.tasiyici3{
+  width: 150px;
+  height: 210px;
+  position: absolute;
+  float: left;
+}
+.tasiyici4{
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  float: left;
+}
+.tasiyici5{
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  float: left;
+}
+.tasiyici6{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  float: left;
+  bottom: 0px;
+  overflow: hidden;
+}
+.tasiyici7{
+  width: 580px;
+  height: 300px;
+  position: absolute;
+  float: left;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+.tasiyici8{
+  width: 150px;
+  height: 150px;
+position: absolute;
+  float: left;
+
+}
+.soldan1{
+	margin-left: 10%;
+}
+.soldan2{
+	margin-left: 20%;
+  z-index: 1;
+}
+.soldan3{
+  margin-left: 40%;
+  z-index: 1;
+}
+.soldan4{
+  margin-left: 50%;
+  z-index: 1;
+}
+.soldan5{
+  margin-left: 60%;
+  z-index: 1;
+}
+.soldan6{
+  margin-left: 70%;
+  z-index: 1;
+}
+.soldan7{
+  margin-left: 70%;
+  margin-top: 10%;
+  z-index: 1;
+}
+.soldan8{
+  margin-left: 13%;
+  margin-top: 10%;
+  z-index: 4;
+}
+.soldan9{
+  margin-left: 50%;
+  margin-top: 15%;
+  z-index: 4;
+}
+.soldan10{
+  margin-left: 55%;
+  margin-top: 15%;
+  z-index: 4;
+}
+.soldan10{
+  margin-left: 80%;
+  margin-top: 0%;
+  z-index: 1;
+}
+.margin{
+  margin-top: 0.5%;
+}
+#bulut1 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color:#fff;
+  width: 70%;
+  height: 70%;
+  animation: bulut 6s infinite;
+  position: relative;
+  z-index: 2;
+}
+#bulut2 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color:#fff;
+  width: 100%;
+  height: 100%;
+  animation: bulut2 3s infinite;
+  position: relative;
+  z-index: 3;
+}
+#bulut3 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color:#fff;
+  width: 60%;
+  height: 60%;
+  animation: bulut3 8s infinite;
+  animation-direction: alternate-reverse;
+  position: relative;
+}
+#cubuk1 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/11.png");
+  background-repeat: no-repeat;
+  background-size: 25px 240px;
+  background-position: bottom;
+  color:#fff;
+  width: 70%;
+  height: 100%;
+  animation: cubuk 10s infinite;
+  position: relative;
+  animation-timing-function:ease;
+  transform-origin: top;
+}
+#cubuk2 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/11.png");
+  background-repeat: no-repeat;
+  background-size: 10px 100px;
+  background-position: bottom;
+  color:#fff;
+  width: 70%;
+  height: 100%;
+  animation: cubuk2 10s infinite;
+  position: relative;
+  animation-timing-function:ease;
+  transform-origin: top;
+}
+#cubuk3 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/11.png");
+  background-repeat: no-repeat;
+  background-size: 25px 240px;
+  background-position: bottom;
+  color:#fff;
+  width: 70%;
+  height: 100%;
+  animation: cubuk 10s infinite;
+  position: relative;
+  animation-timing-function:ease;
+  transform-origin: top;
+}
+#cubuk4 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/11.png");
+  background-repeat: no-repeat;
+  background-size: 25px 240px;
+  background-position: bottom;
+  color:#fff;
+  width: 70%;
+  height: 100%;
+  animation: cubuk3 10s infinite;
+  position: relative;
+  animation-timing-function:ease;
+  transform-origin: top;
+}
+#cubuk5 {
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/11.png");
+  background-repeat: no-repeat;
+  background-size: 25px 240px;
+  background-position: bottom;
+  color:#fff;
+  width: 70%;
+  height: 100%;
+  animation: cubuk 10s infinite;
+  position: relative;
+  animation-timing-function:ease;
+  transform-origin: top;
+}
+#spaceship{
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/44.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  animation: spaceship 4s infinite;
+}
+#ufo{
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiNGOUQwMjY7IiBkPSJNMTQ0LjM0NSwzNDkuN2w2Ny4zOSwyMC42MzZMNjQuNjMxLDE5Ni45MWw5Ni44NTUsMjYuMDMzTDAsMGwyMjIuOTQzLDE2MS40ODVsLTI2LjAzNC05Ni44NTMgIGwxNzMuNDI3LDE0Ny4xMDNsLTIwLjYzNS02Ny4zOWMwLDAsMjYzLjE0LDE4MC44MTcsMTE5LjMsMzI0LjY1N0MzMjUuMTYzLDYxMi44NCwxNDQuMzQ1LDM0OS43LDE0NC4zNDUsMzQ5Ljd6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNFN0MyMjQ7IiBkPSJNMjIyLjk0MywxNjEuNDg1bC0yNi4wMzQtOTYuODUzbDE3My40MjcsMTQ3LjEwM2wtMjAuNjM1LTY3LjM5YzAsMCwyNjMuMTQsMTgwLjgxNywxMTkuMywzMjQuNjU3ICBMMCwwTDIyMi45NDMsMTYxLjQ4NXoiLz4KPHBhdGggc3R5bGU9ImZpbGw6IzQ0NDI0MjsiIGQ9Ik00NTUuMjA2LDQ0OS4wMDFjNi4xNDgtMTMuNDY2LDMuMTUyLTMzLjA0OC04LjkwMy01OC4yMDVjLTguMzMyLTE3LjM4OC0xOC4wMjgtMzEuMzE0LTE4LjQzNi0zMS45ICBsLTQ4LjQ3Mi00OC40NzFsLTQ4LjQ3Mi00OC40NzJjLTAuNTg0LTAuNDA4LTE0LjUxMS0xMC4xMDQtMzEuODk5LTE4LjQzOGMtMjUuMTU3LTEyLjA1NS00NC43NC0xNS4wNTItNTguMjA1LTguOTAzICBjLTUuMTI3LDIuMzQxLTExLjY2NSw3LjQ5Ny0xMy42OTgsMTguNzY5Yy0zLjYyNiwyMC4wOTcsOS44NTUsNDkuMDQxLDE4LjIxNCw2NC41MDVjMTMuOTA2LDI1LjcyNywzMy4xMzIsNTEuNDYyLDU0LjEzNCw3Mi40NjUgIGMyMS4wMDIsMjEuMDAyLDQ2LjczOCw0MC4yMjgsNzIuNDY1LDU0LjEzNGMxNS40NjUsOC4zNTksNDQuNDA4LDIxLjg0LDY0LjUwNSwxOC4yMTQgIEM0NDcuNzEsNDYwLjY2NCw0NTIuODY1LDQ1NC4xMjcsNDU1LjIwNiw0NDkuMDAxeiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojM0EzODM5OyIgZD0iTTQ1NS4yMDYsNDQ5LjAwMWM2LjE0OC0xMy40NjYsMy4xNTItMzMuMDQ4LTguOTAzLTU4LjIwNWMtOC4zMzItMTcuMzg4LTE4LjAyOC0zMS4zMTQtMTguNDM2LTMxLjg5OSAgbC00OC40NzItNDguNDcxbC03OS45MjcsNzkuOTI3YzIxLjAwMiwyMS4wMDIsNDYuNzM4LDQwLjIyOCw3Mi40NjUsNTQuMTM0YzE1LjQ2NSw4LjM1OSw0NC40MDgsMjEuODQsNjQuNTA1LDE4LjIxNCAgQzQ0Ny43MSw0NjAuNjY0LDQ1Mi44NjUsNDU0LjEyNyw0NTUuMjA2LDQ0OS4wMDF6Ii8+CjxjaXJjbGUgc3R5bGU9ImZpbGw6I0Y5RDAyNjsiIGN4PSIyODcuMjc3IiBjeT0iMjk1LjI3OSIgcj0iOS43MjQiLz4KPGNpcmNsZSBzdHlsZT0iZmlsbDojRDNCMTIxOyIgY3g9IjM5NC41NDEiIGN5PSI0MDIuNTQzIiByPSI5LjcyNCIvPgo8cGF0aCBzdHlsZT0iZmlsbDojQkNFOEY3OyIgZD0iTTQzNS41NDYsMzY0LjA3NGM2Ljg2LTE1LjIwMyw4Ljk2OC0zMS45NTUsNi4wOTctNDguNDQ2Yy0yLjkzOC0xNi44ODItMTAuOTE2LTMyLjIyOC0yMy4wNy00NC4zODEgIGwwLDBjLTEyLjE1NC0xMi4xNTQtMjcuNTAxLTIwLjEzMi00NC4zODMtMjMuMDdjLTE2LjQ5MS0yLjg3MS0zMy4yNDQtMC43NjItNDguNDQ2LDYuMDk3bC0zLjk1NywxLjc4NWwtMS40NSw0LjA5ICBjLTAuNTYsMS41NzktMy4yMDEsMTAuMTU5LTAuMTc4LDIzLjk1N2MzLjgxMiwxNy40MDIsMTQuNzU5LDM1LjI0LDMyLjUzNiw1My4wMTZsMCwwYzE3Ljc3NywxNy43NzgsMzUuNjE1LDI4LjcyNCw1My4wMTgsMzIuNTM2ICBjMTMuNzk3LDMuMDIzLDIyLjM3OCwwLjM4MSwyMy45NTctMC4xNzhsNC4wOTItMS40NUw0MzUuNTQ2LDM2NC4wNzR6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiM4RUMxRDY7IiBkPSJNNDM1LjU0NiwzNjQuMDc0YzYuODYtMTUuMjAzLDguOTY4LTMxLjk1NSw2LjA5Ny00OC40NDZjLTIuOTM4LTE2Ljg4Mi0xMC45MTYtMzIuMjI4LTIzLjA3LTQ0LjM4MSAgbDAsMGwtNjUuODc3LDY1Ljg3OGwwLDBjMTcuNzc4LDE3Ljc3NywzNS42MTUsMjguNzI0LDUzLjAxOCwzMi41MzZjMTMuNzk3LDMuMDIzLDIyLjM3OCwwLjM4MSwyMy45NTctMC4xNzhsNC4wOTItMS40NSAgTDQzNS41NDYsMzY0LjA3NHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0Y5RDAyNjsiIGQ9Ik0zMzYuNzgsMzUzLjA0TDMzNi43OCwzNTMuMDRjLTMuNzk4LTMuNzk4LTkuOTU0LTMuNzk4LTEzLjc1MiwwYy0zLjc5OCwzLjc5OC0zLjc5OCw5Ljk1NCwwLDEzLjc1MiAgbDAsMGMzLjc5OCwzLjc5OCw5Ljk1NCwzLjc5OCwxMy43NTIsMEMzNDAuNTc3LDM2Mi45OTQsMzQwLjU3NywzNTYuODM2LDMzNi43OCwzNTMuMDR6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNEM0IxMjE7IiBkPSJNMzM2Ljc4LDM2Ni43OWMzLjc5OC0zLjc5OCwzLjc5OC05Ljk1NCwwLTEzLjc1MmwtMTMuNzUyLDEzLjc1MiAgQzMyNi44MjUsMzcwLjU4OCwzMzIuOTgzLDM3MC41ODgsMzM2Ljc4LDM2Ni43OXoiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  animation: ufo 4s infinite;
+}
+#cocuk{
+  background-image: url("https://junotoys.themerex.net/wp-content/uploads/2016/06/boys.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#slo1{
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+  padding: 10px;
+  float: left;
+}
+#slo2{
+  width: 100%;
+  height: auto;
+  color: #37326a;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  float: left;
+}
+@media screen and (max-width:1135px) {
+
+}

@@ -1,0 +1,130 @@
+<?php
+echo '
+<div id="wrapper">
+<div id="carousel">
+  <div id="content">
+    <img
+      class="item"
+      src="./image/minigaleri/resized/1.jpg"
+      onclick="openModal();currentSlide(1)"
+    />
+    <img
+      src="./image/minigaleri/resized/2.jpg"
+      class="item"
+      onclick="openModal();currentSlide(2)"
+    />
+    <img
+      src="./image/minigaleri/resized/3.jpg"
+      class="item"
+      onclick="openModal();currentSlide(3)"
+    />
+    <img
+      src="./image/minigaleri/resized/4.jpg"
+      class="item"
+      onclick="openModal();currentSlide(4)"
+    />
+    <img
+      src="./image/minigaleri/resized/5.jpg"
+      class="item"
+      onclick="openModal();currentSlide(5)"
+    />
+    <img
+      src="./image/minigaleri/resized/6.jpg"
+      class="item"
+      onclick="openModal();currentSlide(6)"
+    />
+    <img
+      src="./image/minigaleri/resized/7.jpg"
+      class="item"
+      onclick="openModal();currentSlide(7)"
+    />
+    <img
+      src="./image/minigaleri/resized/8.jpg"
+      class="item"
+      onclick="openModal();currentSlide(8)"
+    />
+    <img
+      src="./image/minigaleri/resized/9.jpg"
+      class="item"
+      onclick="openModal();currentSlide(9)"
+    />
+    <img
+      src="./image/minigaleri/resized/10.jpg"
+      class="item"
+      onclick="openModal();currentSlide(10)"
+    />
+    <img
+      class="item"
+      src="./image/minigaleri/resized/11.jpg"
+      onclick="openModal();currentSlide(11)"
+    />
+    <img
+      src="./image/minigaleri/resized/12.jpg"
+      class="item"
+      onclick="openModal();currentSlide(12)"
+    />
+    <img
+      src="./image/minigaleri/resized/13.jpg"
+      class="item"
+      onclick="openModal();currentSlide(13)"
+    />
+    <img
+      src="./image/minigaleri/resized/14.jpg"
+      class="item"
+      onclick="openModal();currentSlide(14)"
+    />
+    <img
+      src="./image/minigaleri/resized/15.jpg"
+      class="item"
+      onclick="openModal();currentSlide(15)"
+    />
+    <img
+      src="./image/minigaleri/resized/16.jpg"
+      class="item"
+      onclick="openModal();currentSlide(16)"
+    />
+    <img
+      src="./image/minigaleri/resized/17.jpg"
+      class="item"
+      onclick="openModal();currentSlide(17)"
+    />
+    <img
+      src="./image/minigaleri/resized/18.jpg"
+      class="item"
+      onclick="openModal();currentSlide(18)"
+    />
+    <img
+      src="./image/minigaleri/resized/19.jpg"
+      class="item"
+      onclick="openModal();currentSlide(19)"
+    />
+    <img
+      src="./image/minigaleri/resized/20.jpg"
+      class="item"
+      onclick="openModal();currentSlide(20)"
+    />
+  </div>
+</div>
+<button id="prev">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+  >
+    <path fill="none" d="M0 0h24v24H0V0z" />
+    <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+  </svg>
+</button>
+<button id="next">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+  >
+    <path fill="none" d="M0 0h24v24H0V0z" />
+    <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+  </svg>
+</button>
+</div>';

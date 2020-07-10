@@ -1,0 +1,24 @@
+.minigaleri {
+  width: 100%;
+  float: left;
+  height: 35vh;
+  background-color: red; }
+  .minigaleri .resimler {
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    transition: 500ms; }
+    .minigaleri .resimler img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 500ms; }
+    .minigaleri .resimler:hover {
+      transition: 500ms; }
+      .minigaleri .resimler:hover img {
+        transition: 500ms;
+        width: 110%;
+        height: 110%; }
+
+/*# sourceMappingURL=minigaleri.css.map */
