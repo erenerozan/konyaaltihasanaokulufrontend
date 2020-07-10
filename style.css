@@ -541,9 +541,15 @@ body {
   float: left;
   z-index: 100 !important;
   box-shadow: 0px 1px 10px #00000030; }
+  @media only screen and (max-width: 1100px) {
+    #nav {
+      height: 70px; } }
   #nav .logo {
     height: 90px;
     float: left; }
+    @media only screen and (max-width: 1100px) {
+      #nav .logo {
+        height: 45px; } }
     #nav .logo .dik {
       float: left;
       width: 2px;
@@ -552,12 +558,22 @@ body {
       margin-right: 10px;
       border-radius: 10px;
       background-color: #f1c40f; }
+      @media only screen and (max-width: 1100px) {
+        #nav .logo .dik {
+          height: 45px; } }
     #nav .logo .logolar {
       float: left; }
+      @media only screen and (max-width: 1100px) {
+        #nav .logo .logolar {
+          height: 45px; } }
     #nav .logo img {
       width: 120px;
       height: 90px;
       object-fit: contain; }
+      @media only screen and (max-width: 1100px) {
+        #nav .logo img {
+          height: 45px;
+          width: 65px; } }
   #nav .navwrapper {
     margin: 0 auto;
     display: block;
@@ -608,9 +624,6 @@ body {
           #nav .navwrapper nav .ataturk-wrapper a img {
             margin: 0px auto;
             width: 80px; }
-    @media only screen and (max-width: 1100px) {
-      #nav .navwrapper .humberger {
-        display: block !important; } }
     #nav .navwrapper .humberger {
       display: none;
       float: right;
@@ -621,6 +634,10 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover; }
+      @media only screen and (max-width: 1100px) {
+        #nav .navwrapper .humberger {
+          display: block !important;
+          margin-top: 10px; } }
 
 .sticky {
   position: fixed;
@@ -2923,7 +2940,7 @@ li.dropdown {
   width: 100%;
   float: left;
   position: fixed;
-  top: 160px;
+  top: 120px;
   z-index: 100;
   background: white; }
   .displayBlock ul {
@@ -2945,7 +2962,7 @@ li.dropdown {
   width: 100%;
   float: left;
   position: fixed;
-  top: 100px;
+  top: 70px;
   z-index: 100;
   background: white; }
   .displayBlockOther ul {
