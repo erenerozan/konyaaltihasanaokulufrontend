@@ -9,6 +9,7 @@ echo '
             <li><a href="http://www.konyaaltihasanaokulu.com/pages/hakkimizda.php">Psikolojik Danışmanlık ve Rehberlik</a></li>
             <li><a href="http://www.konyaaltihasanaokulu.com/pages/hakkimizda.php">Doğal Gıda Ürünleri</a></li>
             <li><a href="http://www.konyaaltihasanaokulu.com/pages/hakkimizda.php">Destek Birimleri</a></li>
+            <li><a href="http://www.konyaaltihasanaokulu.com/pages/hakkimizda.php">Eko-Okullar Çevre Dostu Okul</a></li>
         </ul>
         <ul>
             <li><a href="http://www.konyaaltihasanaokulu.com/pages/egitimprogramlarimiz.php">Eğitim Programlarımız</a></li>
